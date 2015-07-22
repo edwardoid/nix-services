@@ -1,0 +1,26 @@
+{
+  "name": "node-services",
+  "version": "0.1.0",
+  "description": "Module to manipulate *nix services",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "sudo nodejs test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edwardoid/node-services.git"
+  },
+  "keywords": [
+    "linux",
+    "unix",
+    "service",
+    "init.d",
+    "systemctl",
+    "debian"
+  ],
+  "author": "Edward Sargsian <edward.sarkisyan@gmail.com> (http://edwardsarkisyan.com/)",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/edwardoid/node-services/issues"
+  }
+}
