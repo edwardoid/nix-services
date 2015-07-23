@@ -4,7 +4,7 @@
   "description": "Module to manipulate *nix services",
   "main": "lib/index.js",
   "scripts": {
-    "test": "sudo node test/test.js"
+    "test": "sudo nodejs test/test.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
     "service",
     "init.d",
     "systemctl",
-    "debian"
+    "debian",
+    "ubuntu"
   ],
   "author": "Edward Sargsian <edward.sarkisyan@gmail.com> (http://edwardsarkisyan.com/)",
   "license": "GPL",
